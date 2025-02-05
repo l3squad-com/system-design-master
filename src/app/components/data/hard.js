@@ -1,10 +1,10 @@
 export const questions = {
   questions: [
-    // Advanced System Design - CAP Theorem
+    // Advanced system-design-master Design - CAP Theorem
     {
       id: 1,
       type: "fill-in-the-blanks",
-      question: "The __ theorem states that a distributed system can only guarantee two out of three properties: Consistency, Availability, and Partition Tolerance.",
+      question: "The __ theorem states that a distributed system-design-master can only guarantee two out of three properties: Consistency, Availability, and Partition Tolerance.",
       blanks: ["CAP"],
       note: "CAP Theorem"
     },
@@ -26,11 +26,11 @@ export const questions = {
       blanks: ["shards"],
       note: "Data Partitioning"
     },
-    // Distributed Systems - Consensus
+    // Distributed system-design-masters - Consensus
     {
       id: 4,
       type: "multiple-choice",
-      question: "Which consensus algorithm is widely used in distributed systems to maintain consistency?",
+      question: "Which consensus algorithm is widely used in distributed system-design-masters to maintain consistency?",
       options: ["Raft", "Paxos", "Dijkstra's Algorithm", "A*"],
       correctAnswers: ["Raft", "Paxos"],
       multipleAnswers: true,
@@ -82,19 +82,19 @@ export const questions = {
       multipleAnswers: false,
       note: "Database Sharding"
     },
-    // Distributed System Challenges
+    // Distributed system-design-master Challenges
     {
       id: 9,
       type: "fill-in-the-blanks",
-      question: "Distributed systems are prone to __ failures, where components might appear to fail intermittently.",
+      question: "Distributed system-design-masters are prone to __ failures, where components might appear to fail intermittently.",
       blanks: ["network"],
-      note: "Distributed System Challenges"
+      note: "Distributed system-design-master Challenges"
     },
     // High Availability
     {
       id: 10,
       type: "multiple-choice",
-      question: "Which of these strategies helps achieve high availability in distributed systems?",
+      question: "Which of these strategies helps achieve high availability in distributed system-design-masters?",
       options: [
         "Single points of failure",
         "Redundancy",
@@ -154,12 +154,12 @@ export const questions = {
       leftItems: ["Metrics", "Logs", "Tracing"],
       rightItems: [
         "Shows resource utilization over time",
-        "Provides detailed records of system events",
+        "Provides detailed records of system-design-master events",
         "Tracks the flow of requests across services"
       ],
       correctMatches: {
         Metrics: "Shows resource utilization over time",
-        Logs: "Provides detailed records of system events",
+        Logs: "Provides detailed records of system-design-master events",
         Tracing: "Tracks the flow of requests across services"
       },
       note: "Monitoring and Observability"

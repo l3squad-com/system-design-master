@@ -131,11 +131,11 @@ export default function Quiz({ quizType, user, resetQuiz }) {
     setQuizFinished(true);
 
     // Get the current user's ID from local storage
-    const currentUserId = localStorage.getItem('java_quizUserId');
+    const currentUserId = localStorage.getItem('system-design-master_quizUserId');
 
     if (currentUserId) {
       // Get existing quiz results from local storage
-      const storedResults = JSON.parse(localStorage.getItem('java_quizResults') || '[]');
+      const storedResults = JSON.parse(localStorage.getItem('system-design-master_quizResults') || '[]');
 
       // Find the current user in the quiz results
       const updatedResults = storedResults.map((result) => {
@@ -153,7 +153,7 @@ export default function Quiz({ quizType, user, resetQuiz }) {
       });
 
       // Save the updated results back to local storage
-      localStorage.setItem('java_quizResults', JSON.stringify(updatedResults));
+      localStorage.setItem('system-design-master_quizResults', JSON.stringify(updatedResults));
     }
   };
 

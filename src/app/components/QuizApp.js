@@ -11,7 +11,7 @@ export default function QuizApp() {
   const [quizType, setQuizType] = useState(null)
 
   useEffect(() => {
-    const storedUsers = localStorage.getItem('systemdesignmaster_quizUsers')
+    const storedUsers = localStorage.getItem('system-design-master_quizUsers')
     if (storedUsers) {
       setUsers(JSON.parse(storedUsers))
     }
@@ -21,7 +21,7 @@ export default function QuizApp() {
     const newUser = { name }
     const updatedUsers = [...users, newUser]
     setUsers(updatedUsers)
-    localStorage.setItem('systemdesignmaster_quizUsers', JSON.stringify(updatedUsers))
+    localStorage.setItem('system-design-master_quizUsers', JSON.stringify(updatedUsers))
     setCurrentUser(newUser)
   }
 
@@ -37,7 +37,7 @@ export default function QuizApp() {
       user.id === updatedUser.id ? updatedUser : user
     )
     setUsers(updatedUsers)
-    localStorage.setItem('systemdesignmaster_quizUsers', JSON.stringify(updatedUsers))
+    localStorage.setItem('system-design-master_quizUsers', JSON.stringify(updatedUsers))
     setCurrentUser(updatedUser)
     setQuizType(type)
   }

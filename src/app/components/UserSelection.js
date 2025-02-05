@@ -27,7 +27,7 @@ export default function UserSelection({ selectUser }) {
 
   useEffect(() => {
     setIsLoading(true); // Start loading
-    const storedResults = localStorage.getItem('java_quizResults');
+    const storedResults = localStorage.getItem('system-design-master_quizResults');
     if (storedResults) {
       setUsers(JSON.parse(storedResults));
     }
@@ -48,7 +48,7 @@ export default function UserSelection({ selectUser }) {
     // Generate a unique ID for the new user using crypto API
     const newUserId = crypto.randomUUID();
 
-    localStorage.setItem('systemdesignmaster_quizUserId', newUserId);
+    localStorage.setItem('system-design-master_quizUserId', newUserId);
 
     const newUser = {
       id: newUserId,
@@ -61,7 +61,7 @@ export default function UserSelection({ selectUser }) {
 
     const updatedUsers = [...users, newUser];
     setUsers(updatedUsers);
-    localStorage.setItem('systemdesignmaster_quizResults', JSON.stringify(updatedUsers));
+    localStorage.setItem('system-design-master_quizResults', JSON.stringify(updatedUsers));
     setError(''); // Clear any previous error
     selectUser(newUser);
   };
