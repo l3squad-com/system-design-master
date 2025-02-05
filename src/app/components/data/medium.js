@@ -1,6 +1,6 @@
 export const questions = {
   questions: [
-    // system-design-master Design Basics - Load Balancers
+    // system Design Basics - Load Balancers
     {
       id: 1,
       type: "fill-in-the-blanks",
@@ -8,7 +8,7 @@ export const questions = {
       blanks: ["dynamic"],
       note: "Load Balancers"
     },
-    // system-design-master Design Basics - Data Replication
+    // system Design Basics - Data Replication
     {
       id: 2,
       type: "multiple-choice",
@@ -48,7 +48,7 @@ export const questions = {
     {
       id: 6,
       type: "multiple-choice",
-      question: "Which of these techniques is used to make a system-design-master fault-tolerant?",
+      question: "Which of these techniques is used to make a system fault-tolerant?",
       options: ["Caching", "Redundancy", "Sharding", "Compression"],
       correctAnswers: ["Redundancy"],
       multipleAnswers: false,
@@ -76,7 +76,7 @@ export const questions = {
     {
       id: 9,
       type: "fill-in-the-blanks",
-      question: "A distributed logging system-design-master often aggregates logs in a __ for centralized analysis.",
+      question: "A distributed logging system often aggregates logs in a __ for centralized analysis.",
       blanks: ["log aggregator"],
       note: "Distributed Logging"
     },
@@ -112,7 +112,7 @@ export const questions = {
     {
       id: 13,
       type: "fill-in-the-blanks",
-      question: "Scaling a system-design-master by adding more instances is called __ scaling.",
+      question: "Scaling a system by adding more instances is called __ scaling.",
       blanks: ["horizontal"],
       note: "Scaling Techniques"
     },

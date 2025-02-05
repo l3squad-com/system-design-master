@@ -1,14 +1,14 @@
 export const questions = {
   questions: [
-    // system-design-master Design Basics - Scalability
+    // system Design Basics - Scalability
     {
       id: 1,
       type: "fill-in-the-blanks",
-      question: "Scaling a system-design-master by increasing the size of the server is called __ scaling.",
+      question: "Scaling a system by increasing the size of the server is called __ scaling.",
       blanks: ["vertical"],
       note: "Scalability"
     },
-    // system-design-master Design Basics - Load Balancers
+    // system Design Basics - Load Balancers
     {
       id: 2,
       type: "multiple-choice",
@@ -58,7 +58,7 @@ export const questions = {
     {
       id: 7,
       type: "fill-in-the-blanks",
-      question: "A system-design-master that continues to work even if a component fails is __ tolerant.",
+      question: "A that continues to work even if a component fails is __ tolerant.",
       blanks: ["fault"],
       note: "Fault Tolerance"
     },
@@ -66,19 +66,19 @@ export const questions = {
     {
       id: 8,
       type: "multiple-choice",
-      question: "Which system-design-master is used to deliver content from servers closer to users?",
+      question: "Which system is used to deliver content from servers closer to users?",
       options: ["CDN", "Database", "Load Balancer", "Queue"],
       correctAnswers: ["CDN"],
       multipleAnswers: false,
       note: "Content Delivery Networks"
     },
-    // Distributed system-design-masters Basics
+    // Distributed system Basics
     {
       id: 9,
       type: "fill-in-the-blanks",
-      question: "A __ system-design-master consists of multiple connected computers working together.",
+      question: "A __ system consists of multiple connected computers working together.",
       blanks: ["distributed"],
-      note: "Distributed system-design-masters"
+      note: "Distributed system"
     },
     // API Gateways
     {
@@ -103,7 +103,7 @@ export const questions = {
       id: 12,
       type: "multiple-choice",
       question: "Which type of database is designed to handle structured data with tables?",
-      options: ["Relational Database", "NoSQL Database", "Graph Database", "File system-design-master"],
+      options: ["Relational Database", "NoSQL Database", "Graph Database", "File system"],
       correctAnswers: ["Relational Database"],
       multipleAnswers: false,
       note: "Databases"
@@ -120,7 +120,7 @@ export const questions = {
     {
       id: 14,
       type: "multiple-choice",
-      question: "What ensures that a system-design-master is available even during server failures?",
+      question: "What ensures that a system is available even during server failures?",
       options: ["Redundancy", "Load Balancer", "Database", "Logging"],
       correctAnswers: ["Redundancy"],
       multipleAnswers: false,
